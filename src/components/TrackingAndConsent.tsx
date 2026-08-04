@@ -314,10 +314,7 @@ export default function CookieConsentBanner() {
           </p>
 
           <p>
-            View our{' '}
-            <a href="/privacy-policy" className="cookie-consent-link">
-              Cookie Policy
-            </a>{' '}
+            View our Cookie Policy 
             to update or disable preferences anytime.
           </p>
         </div>
