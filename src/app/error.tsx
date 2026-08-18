@@ -32,9 +32,9 @@ export default function ErrorPage({
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4 dark:bg-gray-900">
       <div className="mx-auto flex w-full max-w-md flex-col items-center justify-center space-y-6 text-center">
-        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-red-100 dark:bg-red-900/30">
+        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
           <svg
-            className="h-10 w-10 text-red-600 dark:text-red-500"
+            className="h-10 w-10 text-blue-900 dark:text-blue-800"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"

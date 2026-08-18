@@ -1,37 +1,23 @@
 import HeroSection from '@/components/HeroSection';
-import FoundersMessage from '@/components/FoundersMessage';
+import StatisticsSection from '@/components/StatisticsSection';
 import ExpertiseSection from '@/components/ExpertiseSection';
-import TeamSection from '@/components/TeamSection';
-import KeyClient from '@/components/KeyClient';
-import ProjectsSection from '@/components/ProjectsSection';
-import ResearchSection from '@/components/ResearchSection';
-import Brands from '@/components/Brands';
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import BlogsSection from '@/components/BlogsSection';
-import DialoguesSection from '@/components/DialoguesSection';
-import AssociateBrandsPage from '@/components/Associatebrands';
 import BotIcon from '@/components/BotIcon';
+import ProjectsSection from '@/components/ProjectsSection';
 
 export default function Home() {
   return (
     <main>
-      {/* <div className="max-w-[1480px] mx-auto"> */}
       <HeroSection />
-      <FoundersMessage />
+      <StatisticsSection />
       <ExpertiseSection />
-      <TeamSection />
-      <KeyClient />
       <ProjectsSection />
-      <ResearchSection />
-      <Brands />
+      <BlogsSection />
+      <BotIcon />
       <FAQSection />
       <ContactSection />
-      <BlogsSection />
-      <DialoguesSection />
-      <AssociateBrandsPage />
-      <BotIcon />
-      {/* </div> */}
     </main>
   );
 }
